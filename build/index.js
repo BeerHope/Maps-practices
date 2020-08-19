@@ -3,6 +3,8 @@ const chalk = require('chalk')
 const config = require('../vue.config.js')
 const rawArgv = process.argv.slice(2)
 const args = rawArgv.join(' ')
+console.log('12321321321')
+console.log(args, 'args~~~~~~~~~~~~~~~~~~~')
 
 if (process.env.npm_config_preview || rawArgv.includes('--preview')) {
   const report = rawArgv.includes('--report')
